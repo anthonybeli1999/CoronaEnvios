@@ -23,4 +23,25 @@
     <string name="register_button_register">Terminar registro</string>
     <string name="register_textbutton_cancel">Cancelar</string>
 
+    <!-- Register text -->
+    <string name="profile_username">Elard</string>
+    <string name="profile_name">Nombres:</string>
+    <string name="profile_name_user">Elard Ricardo</string>
+    <string name="profile_lastname">Apellidos:</string>
+    <string name="profile_lastname_user">Roma Rodriguez</string>
+    <string name="profile_dni">DNI:</string>
+    <string name="profile_dni_user">75885742</string>
+    <string name="profile_district">Distrito:</string>
+    <string name="profile_district_user">Gregorio albarracin</string>
+    <string name="profile_email">Correo electrónico:</string>
+    <string name="profile_email_user">elardroma@upt.pe</string>
+    <string name="profile_address">Direccion:</string>
+    <string name="profile_address_user">Av. las palmas 1801</string>
+    <string name="profile_reference">Referencia:</string>
+    <string name="profile_reference_user">Una cuadra mas arriba del restaurante los limoneros</string>
+    <string name="profile_textbutton_edit">Editar</string>
+    <string name="profile_textbutton_cancelar">Cancelar</string>
+    <string name="profile_button_signoff">Cerrar Sesion</string>
+    <string name="profile_button_update">Guardar Cambios</string>
+
 </resources>

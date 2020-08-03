@@ -26,10 +26,10 @@
                 android:gravity="end">
 
                 <TextView
-                    android:id="@+id/profile_textbutton_edit"
+                    android:id="@+id/profile_textbutton_cancel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/profile_textbutton_edit"
+                    android:text="@string/profile_textbutton_cancelar"
                     android:fontFamily="sans-serif"
                     android:textColor="@color/colorAccent"
                     android:textStyle="bold"
@@ -86,16 +86,13 @@
                         android:textStyle="bold"
                         android:textSize="18sp"/>
 
-                    <TextView
-                        android:id="@+id/profile_text_name"
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/profile_edit_name"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
                         android:text="@string/profile_name_user"
-                        android:fontFamily="sans-serif"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        android:layout_marginBottom="10dp"/>
+                        android:maxLines="1" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -106,16 +103,14 @@
                         android:textStyle="bold"
                         android:textSize="18sp"/>
 
-                    <TextView
-                        android:id="@+id/profile_text_dni"
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/profile_edit_dni"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
                         android:text="@string/profile_dni_user"
-                        android:fontFamily="sans-serif"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        android:layout_marginBottom="10dp"/>
+                        android:maxLines="1" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -133,16 +128,14 @@
                         android:textStyle="bold"
                         android:textSize="18sp"/>
 
-                    <TextView
-                        android:id="@+id/profile_text_lastname"
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/profile_edit_lastname"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
                         android:text="@string/profile_lastname_user"
-                        android:fontFamily="sans-serif"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        android:layout_marginBottom="10dp"/>
+                        android:maxLines="1" />
+
 
                     <TextView
                         android:layout_width="match_parent"
@@ -153,16 +146,14 @@
                         android:textStyle="bold"
                         android:textSize="18sp"/>
 
-                    <TextView
-                        android:id="@+id/profile_text_district"
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/profile_edit_district"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
                         android:text="@string/profile_district_user"
-                        android:fontFamily="sans-serif"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textStyle="bold"
-                        android:textSize="18sp"
-                        android:layout_marginBottom="10dp"/>
+                        android:maxLines="1" />
+
                 </LinearLayout>
 
             </LinearLayout>
@@ -171,7 +162,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -182,16 +174,13 @@
                     android:textStyle="bold"
                     android:textSize="18sp"/>
 
-                <TextView
-                    android:id="@+id/profile_text_email"
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/profile_edit_email"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
                     android:text="@string/profile_email_user"
-                    android:fontFamily="sans-serif"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:layout_marginBottom="10dp"/>
+                    android:maxLines="1" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -202,16 +191,13 @@
                     android:textStyle="bold"
                     android:textSize="18sp"/>
 
-                <TextView
+                <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/profile_text_address"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
                     android:text="@string/profile_address_user"
-                    android:fontFamily="sans-serif"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:layout_marginBottom="10dp"/>
+                    android:maxLines="1" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -222,25 +208,23 @@
                     android:textStyle="bold"
                     android:textSize="18sp"/>
 
-                <TextView
-                    android:id="@+id/profile_text_reference"
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/profile_edit_reference"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
                     android:text="@string/profile_reference_user"
-                    android:fontFamily="sans-serif"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:layout_marginBottom="10dp"/>
+                    android:maxLines="2" />
+
             </LinearLayout>
 
             <Button
-                android:id="@+id/profile_button_signoff"
+                android:id="@+id/profile_button_update"
                 android:layout_width="match_parent"
                 android:layout_margin="10dp"
                 android:layout_height="wrap_content"
                 android:paddingVertical="15dp"
-                android:text="@string/profile_button_signoff"
+                android:text="@string/profile_button_update"
                 android:textColor="@color/colorWhite"
                 android:backgroundTint="@color/colorAccent"/>
 
