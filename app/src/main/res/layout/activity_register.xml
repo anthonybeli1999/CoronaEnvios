@@ -61,7 +61,7 @@
                     android:id="@+id/register_edit_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textEmailAddress"
+                    android:inputType="text"
                     android:maxLines="1" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -78,7 +78,7 @@
                     android:id="@+id/register_edit_lastname"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textEmailAddress"
+                    android:inputType="text"
                     android:maxLines="1" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -95,7 +95,7 @@
                     android:id="@+id/register_edit_dni"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textEmailAddress"
+                    android:inputType="number"
                     android:maxLines="1" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -146,7 +146,7 @@
                     android:id="@+id/register_edit_address"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textEmailAddress"
+                    android:inputType="text"
                     android:maxLines="1" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -163,13 +163,13 @@
                     android:id="@+id/register_edit_district"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textEmailAddress"
+                    android:inputType="text"
                     android:maxLines="1" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                android:id="@+id/login_button_login"
+                android:id="@+id/register_button_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingVertical="15dp"
@@ -185,11 +185,11 @@
                 android:gravity="center">
 
                 <TextView
-                    android:id="@+id/login_textbutton_register"
+                    android:id="@+id/register_textbutton_cancel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:textSize="15dp"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"
                     android:textColor="@color/colorAccent"
                     android:textStyle="bold"
                     android:text="@string/register_textbutton_cancel">
